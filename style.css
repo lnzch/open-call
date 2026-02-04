@@ -206,3 +206,38 @@ h3 {
 
 
 
+
+
+
+
+
+.project-info {
+  margin-top: 2rem;
+  font-size: 0.85rem;
+  line-height: 1.4;
+}
+
+.project-text {
+  margin-bottom: 1rem;
+}
+
+.logo-row {
+  display: flex;
+  gap: 1.2rem;
+  align-items: center;
+  margin-top: 0.8rem;
+}
+
+.logo-row img {
+  height: 40px;
+  width: auto;
+  object-fit: contain;
+  opacity: 0.85;
+  transition: opacity 0.2s ease;
+}
+
+.logo-row a:hover img {
+  opacity: 1;
+}
+
+
