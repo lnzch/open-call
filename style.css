@@ -211,33 +211,43 @@ h3 {
 
 
 
-.project-info {
+/* =========================
+   FUNDING / LOGOS BLOCK
+========================= */
+
+.funding-block {
   margin-top: 2rem;
-  font-size: 0.85rem;
+  padding-top: 1rem;
+  border-top: 1px solid rgba(0,0,0,0.15);
+}
+
+.funding-text {
+  font-size: 0.75rem;
   line-height: 1.4;
+  color: #ffffff;
+  margin-bottom: 0.8rem;
 }
 
-.project-text {
-  margin-bottom: 1rem;
+.funding-text p {
+  margin-bottom: 0.6rem;
 }
 
-.logo-row {
+.funding-logos {
   display: flex;
   gap: 1.2rem;
   align-items: center;
-  margin-top: 0.8rem;
 }
 
-.logo-row img {
-  height: 40px;
+.funding-logos img {
+  height: 36px;
   width: auto;
   object-fit: contain;
-  opacity: 0.85;
-  transition: opacity 0.2s ease;
+  filter: grayscale(100%);
+  opacity: 0.8;
+  transition: opacity 0.2s ease, filter 0.2s ease;
 }
 
-.logo-row a:hover img {
+.funding-logos a:hover img {
   opacity: 1;
+  filter: grayscale(0%);
 }
-
-
