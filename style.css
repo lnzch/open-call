@@ -102,7 +102,6 @@ h3 {
   
   p {
     margin-bottom: 0.8rem; /* engerer Abstand zwischen Absätzen */
-    color: #8b8b8b;
   }
   
   ul {
@@ -218,11 +217,10 @@ h3 {
 .funding-block {
   margin-top: 2rem;
   padding-top: 1rem;
-  border-top: 1px solid rgba(0,0,0,0.15);
 }
 
 .funding-text {
-  font-size: 0.75rem;
+  font-size: 9px;
   line-height: 1.4;
   color: #ffffff;
   margin-bottom: 0.8rem;
