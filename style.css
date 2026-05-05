@@ -144,7 +144,7 @@ h3 {
   }
 
 .column ul {
-  margin: 1.2rem 1.2rem 1.2rem;
+  margin: 0.7rem 0.7rem 0.7rem;
 }
 
 .column li {
@@ -253,3 +253,4 @@ h3 {
   opacity: 1;
   filter: grayscale(0%);
 }
+
