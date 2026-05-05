@@ -183,18 +183,6 @@ h3 {
 }
   
 
-.asterisk-list {
-    list-style: none;
-    padding-left: 1.6em;
-    margin: 0.4em;
-  }
-  
-  .asterisk-list li {
-    position: relative;
-    padding-left: 1.2em;
-    margin-bottom: 0.4em;
-  }
-  
   .asterisk-list li::before {
     content: "+";
     position: absolute;
