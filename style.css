@@ -196,7 +196,7 @@ h3 {
   }
   
   .asterisk-list li::before {
-    content: "*";
+    content: "+";
     position: absolute;
     left: -3px;
     top: -5px;
